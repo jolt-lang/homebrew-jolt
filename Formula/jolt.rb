@@ -9,7 +9,8 @@ class Jolt < Formula
       url "https://github.com/jolt-lang/jolt/releases/download/v0.1.0/joltc-v0.1.0-aarch64-macos.tar.gz"
       sha256 "cd4996e7961808e13f263f83b81b07455fced7ff05d46575bdc15756cd40e055"
     end
-    # Intel macOS added once its release build publishes (slow GitHub runner).
+    # No Intel macOS bottle: GitHub retired the macos-13 Intel runner. Intel
+    # Macs build joltc from source (needs Chez Scheme + a C compiler).
   end
 
   on_linux do
