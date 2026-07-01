@@ -7,7 +7,7 @@ class Jolt < Formula
   on_macos do
     on_arm do
       url "https://github.com/jolt-lang/jolt/releases/download/v0.1.0/joltc-v0.1.0-aarch64-macos.tar.gz"
-      sha256 "abc4bb17c28ba7ea71c1d314eec3a46167852c5016c329c4e33ffd8c87657bc8"
+      sha256 "cd4996e7961808e13f263f83b81b07455fced7ff05d46575bdc15756cd40e055"
     end
     # Intel macOS added once its release build publishes (slow GitHub runner).
   end
@@ -15,7 +15,7 @@ class Jolt < Formula
   on_linux do
     on_intel do
       url "https://github.com/jolt-lang/jolt/releases/download/v0.1.0/joltc-v0.1.0-x86_64-linux.tar.gz"
-      sha256 "f7d0e69f726e8638122caa3b98c61177c610b790389998ca4a5648d8435421fe"
+      sha256 "aa7c265d41c5b8178a3eebcd33fd2ca753de6730996d663365224acdd1d9b81b"
     end
   end
 
