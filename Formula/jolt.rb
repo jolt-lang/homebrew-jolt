@@ -1,13 +1,13 @@
 class Jolt < Formula
   desc "Clojure implementation on Chez Scheme — no JVM"
   homepage "https://jolt-lang.github.io/"
-  version "0.1.1"
+  version "0.1.4"
   license "EPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/jolt-lang/jolt/releases/download/v0.1.1/joltc-v0.1.1-aarch64-macos.tar.gz"
-      sha256 "b849ac2a4144aacec57cc4e03b01a6096dbf859d3e6b4a13e781a0ace0128c99"
+      url "https://github.com/jolt-lang/jolt/releases/download/v0.1.4/joltc-v0.1.4-aarch64-macos.tar.gz"
+      sha256 "286ccd8feed7a2c8b2acd1c8d02f49bfb2de8d11e2c8ff0f0b263237af73ff28"
     end
     # No Intel macOS bottle: GitHub retired the macos-13 Intel runner. Intel
     # Macs build joltc from source (needs Chez Scheme + a C compiler).
@@ -15,8 +15,8 @@ class Jolt < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/jolt-lang/jolt/releases/download/v0.1.1/joltc-v0.1.1-x86_64-linux.tar.gz"
-      sha256 "2afb1c7141f15bc31db8eccde3aca60f2e67b1785ee9f415374d5dc6bba8b7fe"
+      url "https://github.com/jolt-lang/jolt/releases/download/v0.1.4/joltc-v0.1.4-x86_64-linux.tar.gz"
+      sha256 "e3bcbf3ae236b9a1595f387be4f8b8ab6bf84481c3d185f59ecf95aee210f72c"
     end
   end
 
