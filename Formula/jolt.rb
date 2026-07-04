@@ -1,7 +1,6 @@
 class Jolt < Formula
   desc "Clojure implementation on Chez Scheme — no JVM"
   homepage "https://jolt-lang.github.io/"
-  version "0.1.4"
   license "EPL-2.0"
 
   on_macos do
