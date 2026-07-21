@@ -5,8 +5,8 @@ class Jolt < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/jolt-lang/jolt/releases/download/v0.4.11/joltc-v0.4.11-aarch64-macos.tar.gz"
-      sha256 "76630f19d21014c620b6bcc8d05ac8a308827eb55cc2bf75984cccef689aa6ec"
+      url "https://github.com/jolt-lang/jolt/releases/download/v0.4.12/joltc-v0.4.12-aarch64-macos.tar.gz"
+      sha256 "06074203e9702ebc18d4be474639e16f12e803671beeddbc13e7543243b6fb9e"
     end
     # No Intel macOS bottle: GitHub retired the macos-13 Intel runner. Intel
     # Macs build joltc from source (needs Chez Scheme + a C compiler).
@@ -14,8 +14,8 @@ class Jolt < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/jolt-lang/jolt/releases/download/v0.4.11/joltc-v0.4.11-x86_64-linux.tar.gz"
-      sha256 "8567ce10f18c9915f1cb47393d34b07876ae7d18033a3da9a4b9a3c53e8db752"
+      url "https://github.com/jolt-lang/jolt/releases/download/v0.4.12/joltc-v0.4.12-x86_64-linux.tar.gz"
+      sha256 "83b86dadae7743d3f6d64135943853b66c96053197e34da2b6efdfe7e3777854"
     end
   end
 
