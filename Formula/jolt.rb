@@ -5,19 +5,19 @@ class Jolt < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/jolt-lang/jolt/releases/download/v0.8.27/jolt-v0.8.27-aarch64-macos.tar.gz"
-      sha256 "c85fb07350811d9b0762423b100796703d18a2bd6c7c4462a69b04a6f770177a"
+      url "https://github.com/jolt-lang/jolt/releases/download/v0.8.28/jolt-v0.8.28-aarch64-macos.tar.gz"
+      sha256 "73727d6e7fe6e13126fb04fff91958016e537aef16be87e51b8680f652001e73"
     end
     on_intel do
-      url "https://github.com/jolt-lang/jolt/releases/download/v0.8.27/jolt-v0.8.27-x86_64-macos.tar.gz"
-      sha256 "1cd4acbdd6f8a5fbec4fc2cdafd6cebe32e105d88f6021d46fb8dcb6075e85c8"
+      url "https://github.com/jolt-lang/jolt/releases/download/v0.8.28/jolt-v0.8.28-x86_64-macos.tar.gz"
+      sha256 "db6f82ffb2119c92e6887f7afb5c861550c3512d883e336492bc1ad4e4945af4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jolt-lang/jolt/releases/download/v0.8.27/jolt-v0.8.27-x86_64-linux.tar.gz"
-      sha256 "7aedce645a5840772a74e0341da73e6e072f41107ee2b304fc7a4947021a64b4"
+      url "https://github.com/jolt-lang/jolt/releases/download/v0.8.28/jolt-v0.8.28-x86_64-linux.tar.gz"
+      sha256 "6bd302f1ea5ab37bf2705898327cf1e1ad3fe27201978b240d3deaafcfe1925d"
     end
   end
 
